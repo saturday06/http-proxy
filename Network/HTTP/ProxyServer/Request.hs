@@ -4,7 +4,7 @@
 -- License : BSD3
 ------------------------------------------------------------
 
-module Network.HTTP.Proxy.Request
+module Network.HTTP.ProxyServer.Request
     ( Port
     , Request (..)
 

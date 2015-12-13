@@ -25,7 +25,7 @@
 -- >
 --
 
-module Network.HTTP.Proxy
+module Network.HTTP.ProxyServer
     ( Port
     , Request (..)
     , Settings (..)
@@ -59,7 +59,7 @@ import qualified Network.HTTP.Types as HT
 import qualified Network.Wai as Wai
 import qualified Network.Wai.Handler.Warp as Warp
 
-import Network.HTTP.Proxy.Request
+import Network.HTTP.ProxyServer.Request
 
 #if 0
 import Data.Version (showVersion)

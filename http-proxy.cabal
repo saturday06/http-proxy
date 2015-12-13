@@ -1,5 +1,5 @@
 Name:           http-proxy
-Version:        0.1
+Version:        0.2
 License:        BSD3
 License-file:   LICENSE
 Author:         Michael Snoyman, Erik de Castro Lopo
@@ -48,8 +48,8 @@ Library
                    , warp
                    , warp-tls
 
-  Exposed-modules:   Network.HTTP.Proxy
-  Other-modules:     Network.HTTP.Proxy.Request
+  Exposed-modules:   Network.HTTP.ProxyServer
+  Other-modules:     Network.HTTP.ProxyServer.Request
 
   ghc-options:       -Wall -fwarn-tabs
   if os(windows)

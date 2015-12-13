@@ -21,8 +21,8 @@ import qualified Network.HTTP.Conduit as HC
 import qualified Network.HTTP.Types as HT
 import qualified Network.Wai as Wai
 
-import Network.HTTP.Proxy
-import Network.HTTP.Proxy.Request
+import Network.HTTP.ProxyServer
+import Network.HTTP.ProxyServer.Request
 
 import Test.Gen
 import Test.QuickCheck

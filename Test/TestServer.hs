@@ -28,7 +28,7 @@ import qualified Data.ByteString.Char8 as BS
 import qualified Data.ByteString.Lazy.Char8 as LBS
 import qualified Data.Conduit as DC
 
-import qualified Network.HTTP.Proxy.Request as HPR
+import qualified Network.HTTP.ProxyServer.Request as HPR
 
 import Test.ServerDef
 import Test.Util
